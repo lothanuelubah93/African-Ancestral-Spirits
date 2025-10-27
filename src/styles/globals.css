@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes spookyGlow {
+  0%, 100% {
+    background: linear-gradient(to bottom, #1a0033, #000, #100);
+    filter: brightness(1);
+  }
+  50% {
+    background: linear-gradient(to bottom, #4b0082, #000, #220);
+    filter: brightness(1.4);
+  }
+}
+.animate-spookyGlow {
+  animation: spookyGlow 6s infinite ease-in-out;
+}
+
+@keyframes fadeMove {
+  0%, 100% { opacity: 0.25; transform: translateY(0); }
+  50% { opacity: 0.7; transform: translateY(-15px); }
+}
+.animate-fadeMove {
+  animation: fadeMove 8s infinite ease-in-out;
+}
+
+@keyframes fadeMoveSlow {
+  0%, 100% { opacity: 0.2; transform: translateY(0); }
+  50% { opacity: 0.6; transform: translateY(10px); }
+}
+.animate-fadeMoveSlow {
+  animation: fadeMoveSlow 14s infinite ease-in-out;
+}
+
+@keyframes fogMove {
+  0% { background-position: 0 0; }
+  50% { background-position: 80% 100%; }
+  100% { background-position: 0 0; }
+}
+.animate-fogMove {
+  animation: fogMove 40s linear infinite;
+}

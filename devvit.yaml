@@ -1,0 +1,21 @@
+name: afro-ancestral
+version: 1.0.0
+appVersion: 1.0.0
+description: >
+  Journey through 5 haunted African heritage sites with AI audio and blockchain
+  rewards.
+webview:
+  entryPoint: main.ts
+  buildCommand: npm run build
+  serveCommand: npm run dev
+  buildDir: dist
+environment:
+  VITE_ELEVENLABS_API_KEY: sk_b7fdc2a27c000ec6972a30bd8a3de5d8e8bb4a63c273e682
+metadata:
+  title: Afro Ancestral
+  summary: >-
+    A spooky journey through African heritage powered by AI audio and
+    blockchain.
+  categories:
+    - Games
+    - Adventure

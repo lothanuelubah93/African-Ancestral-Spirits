@@ -1,0 +1,7 @@
+*.map
+*.css.map
+node_modules/
+src/
+.git/
+.env
+*.log
