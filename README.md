@@ -1,25 +1,24 @@
-# Clone repository
+## 🚀 Quick Start (For Judges & Developers)
 
-git clone https://github.com/lothanuelubah93/african-ancestral-spirits.git
-cd african-ancestral-spirits
+Follow these steps to run the project on your local machine.
 
-# Install dependencies
+# 1. Clone the repository
+git clone https://github.com/lothanuelubah93/African-Ancestral-Spirits.git
+cd African-Ancestral-Spirits
 
+# 2. Install all dependencies
 npm install
 
-# Create .env file
+# 3. Create your environment file
+Create a new file in the main folder named `.env`
 
-echo "VITE_ELEVENLABS_API_KEY=your_key_here" > .env
-echo "VITE_HEDERA_ACCOUNT_ID=your_account_id" >> .env
+# 4. Add your API keys to the .env file
+Copy and paste the following into your new `.env` file, adding your own keys:
+VITE_ELEVENLABS_API_KEY=your_key_here
+VITE_HEDERA_ACCOUNT_ID=your_account_id
 
-# Run development server
-
+# 5. Run the development server
 npm run dev
-
-# Build for production
-
-npm run build
-Visit http://localhost:5173 to play Explore haunted African heritage sites, battle supernatural entities, and collect ancestral spirits as NFTs while earning HBAR rewards.
 
 🎮 Game Overview
 5 Unique Levels. 5 African Countries. 1 Epic Adventure.
@@ -42,6 +41,11 @@ Frontend: React, Three.js, HTML5 Canvas, Tailwind CSS
 Blockchain: Hedera SDK, HashConnect, HTS (NFTs)
 Audio: ElevenLabs API, Web Audio API
 Deployment: Vercel, Itch.io
+### Hedera Services Used
+
+* **Hedera Token Service (HTS):** Used for minting our 375+ unique Spirit and Artifact NFTs.
+* **HBAR Transfers:** Used for distributing instant HBAR rewards to players for completing levels and collecting spirits.
+* **HashConnect:** Used for securely and simply connecting the game to the user's Hedera wallet (like HashPack).
 
 Player Journey → Blockchain Rewards
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
