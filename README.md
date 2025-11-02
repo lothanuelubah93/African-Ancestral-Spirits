@@ -1,6 +1,6 @@
 # Clone repository
 
-git clone https://github.com/yourusername/african-ancestral-spirits.git
+git clone https://github.com/lothanuelubah93/african-ancestral-spirits.git
 cd african-ancestral-spirits
 
 # Install dependencies
@@ -276,11 +276,14 @@ Social Impact
 ✅ 5 million social media impressions
 ✅ 100 press articles about African gaming innovation
 ✅ 10 university partnerships across Africa
-🚀 Get Involved
-For Players: Play Now
-For Investors: Pitch Deck
-For Partners: Contact Us
-For Developers: GitHub
+## 🚀 Get Involved
+
+* **For Players:** [**Play the Game**](https://afroancestral.vercel.app/)
+* **For Investors:** [**View Our Pitch Deck**](https://...paste_your_PITCH_DECK_link_here...)
+* **For Developers:** [**See the Code on GitHub**](https://github.com/lothanuelubah93/African-Ancestral-Spirits)
+* **Lothanuel's Certification:** [**Hedera Developer Certificate**](https://explore.hashpack.app/nft/0.0.3872504/10869)
+* **For Partners:** [**Contact Us**](mailto:lothanuelubah93@gmail.com)
+* **Community:** [**Follow us on Twitter**](https://x.com/lothanuelubah93?t=pyJVfFOJlOE0s5WbF0IGhw&s=09)
 
 🏆 Built for Hedera Africa Track 3
 Submission Checklist:
